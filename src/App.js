@@ -1,8 +1,11 @@
 import { Route, Routes } from 'react-router-dom';
+import About from './About/About';
 import logo from './logo.svg';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import CheckOut from './Pages/CheckOut/CheckOut';
 import Header from './Pages/Header/Header';
 import Home from './Pages/Home/Home/Home';
+import NotFound from './Pages/NotFound/NotFound';
 import RequiredAuth from './Pages/RequiredAuth/RequiredAuth';
 
 function App() {
@@ -17,7 +20,9 @@ function App() {
           <CheckOut></CheckOut>
         </RequiredAuth>
         }></Route>
-        <Route ></Route>
+      <Route path="/about" element={<About></About>}></Route>
+
+        <Route path="*" element={<NotFound></NotFound>}></Route>
       </Routes>
     </div>
   );
