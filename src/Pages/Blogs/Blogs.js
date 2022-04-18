@@ -59,8 +59,6 @@ const Blogs = () => {
                                 Okta gives importance to progressive profiling, which means minimum upfront information at registrations. The aim is to minimize user inconvenience, boost registrations, and gradually complete the user profile.
 
                                 Okta allows for excellent API security by integrating identity protocols like OAuth. And you will have a single point for all API authorization policies to integrate security and development.
-
-                                And finally, it permits easy B2B integrations with security frameworks such as OpenID Connect and SAML in addition to legacy support for turnkey Active Directory & LDAP integration.
                             </div>
                         </div>
                     </div>

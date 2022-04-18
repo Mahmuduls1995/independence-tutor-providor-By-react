@@ -4,7 +4,8 @@ import {FcGoogle} from 'react-icons/fc';
 import { useSignInWithGithub, useSignInWithGoogle } from 'react-firebase-hooks/auth';
 import { useNavigate } from 'react-router-dom';
 import auth from '../../firebase.init';
-// import Loading from '../../Shared/Loading/Loading';
+import Loading from '../Loading/Loading';
+
 const SocialLogin = () => {
     const [signInWithGoogle, user, loading, error] = useSignInWithGoogle(auth);
     const [signInWithGithub, user1, loading1, error1] = useSignInWithGithub(auth);
@@ -12,7 +13,7 @@ const SocialLogin = () => {
     let errorElement;
 
     if (loading || loading1) {
-        // return <Loading></Loading>
+        <Loading></Loading>
         
     }
     if (error ||error1) {
