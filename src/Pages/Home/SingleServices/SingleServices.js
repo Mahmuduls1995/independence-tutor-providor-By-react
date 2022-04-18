@@ -16,7 +16,7 @@ const SingleServices = ({ service }) => {
                     <div class="bg-gray-100 p-6 rounded-lg text-left ">
                         <img class="h-40 rounded w-full object-cover object-center mb-6" src={img} alt="content" />
                         <h3 className="font-semibold text-2xl  text-indigo-500 ">{name}</h3>
-                        <h4 className="font-semibold text-lg text-gray-900  title-font my-1">Price: {price} $</h4>
+                        <h4 className="font-semibold text-lg text-gray-900  title-font my-1">Price: {price}/=</h4>
                         <p className="leading-relaxed text-base text-justify my-1">{description}</p>
 
                         <Link to="/checkout">

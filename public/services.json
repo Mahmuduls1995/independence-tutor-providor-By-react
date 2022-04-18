@@ -3,7 +3,7 @@
         "id": 1,
         "name": "Physics",
         "price": "5000",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+        "description": "Physics is one of the important subject for science background student. so you are feel hard quickly enroll the package. ",
         "img": "https://i.pinimg.com/originals/ef/5c/b5/ef5cb5b24ad92df41244ee39c48dc0fb.jpg"
     },
     {
@@ -11,35 +11,35 @@
         "id": 2,
         "name": "Chemistry",
         "price": "4000",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+        "description": "Chemistry is very important part of science. every student are maximum time nervous for this subject .So you can enroll subject ",
         "img": "https://easylore.com/wp-content/uploads/downloadfile.jpg"
     },
     {
         "id": 3,
         "name": "Mathmatics",
         "price": "5000",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+        "description": "Math is Interesting .The study of the measurement, properties, and relationships of quantities and sets, using numbers and symbols.",
         "img": "https://media.istockphoto.com/vectors/tiny-students-learning-math-in-college-vector-id1280489827?b=1&k=20&m=1280489827&s=170667a&w=0&h=JewOEEHZSxH6QrPmlzTiQgT92Bv-1yBKCtMXNcfPZY4="
     },
     {
         "id": 4,
         "name": "Biology",
         "price": "4000",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+        "description": "Biology is a branch of science that deals with living organisms and their vital processes.I have very good experience with Subject",
         "img": "https://en.pimg.jp/069/001/270/1/69001270.jpg"
     },
     {
         "id": 5,
         "name": "English",
         "price": "5000",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+        "description": "English is West Germanic language of the Indo-European language family,originally spoken by the inhabitants of early medieval England.",
         "img": "https://st4.depositphotos.com/28838830/40100/v/380/depositphotos_401003756-stock-illustration-logo-english-school-subject-hand.jpg?forcejpeg=true"
     },
     {
         "id": 6,
         "name": "Bangla",
         "price": "3000",
-        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa",
+        "description": "Bangla is our mother language, So maximum people are not good use this language. So if you want properly expert bangla enroll this subject",
         "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE.svg/1200px-%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE.svg.png"
     }
 ]

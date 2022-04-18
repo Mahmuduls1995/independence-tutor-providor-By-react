@@ -13,7 +13,7 @@ const About = () => {
                   Name:Sheikh Mahmudul Hasan
                 </h3>
                 <p className='mb-5 text-base text-left text-gray-800 md:text-xl'>
-                    I am a student of CSE. I want to be a honest web developer. Next one year want to complete my target.
+                    I am a student of CSE.I am interest and learning full stack web development. I want to be a honest web developer. Next one year want to complete my target.I am agree to achive my goal by any way Inshallah with hard work.
                 </p>
                 <Link
                     to='/'
