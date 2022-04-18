@@ -10,6 +10,7 @@ import RequiredAuth from './Pages/RequiredAuth/RequiredAuth';
 import Login from './Pages/LoginPage/Login';
 import SignUp from './Pages/SignUpPage/SignUp';
 import Blogs from './Pages/Blogs/Blogs';
+import Footer from './Pages/Footer/Footer';
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
 
         <Route path="*" element={<NotFound></NotFound>}></Route>
       </Routes>
+      <Footer></Footer>
     </div>
   );
 }
