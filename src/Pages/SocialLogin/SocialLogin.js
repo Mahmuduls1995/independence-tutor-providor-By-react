@@ -35,16 +35,6 @@ const SocialLogin = () => {
         {errorElement}
 
 
-        {/* <div className="mt-2" >
-            <button 
-            onClick={()=>signInWithGoogle()}
-            className=" bg-info d-flex justify-content-center align-items-center w-50 d-block rounded-md  mx-auto">
-             <p className=" mx-5 mt-2 fs-3 fw-bold " >Facebook Sign In</p>
-            <FaFacebook className="" size="50px"/>
-            </button>
-        </div> */}
-
-
         <div className="mt-2" >
             <button 
             onClick={()=>signInWithGithub()}

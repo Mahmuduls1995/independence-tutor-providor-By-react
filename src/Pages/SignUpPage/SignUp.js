@@ -24,7 +24,7 @@ const SignUp = () => {
     }
 
     if (user) {
-        navigate('/shop');
+        navigate('/');
     }
     const handleCreateUser = (event) => {
         event.preventDefault();
@@ -66,7 +66,7 @@ const SignUp = () => {
 
             <button className="mx-auto w-80 h-12 border-3 mt-3 bg-purple-600 text-white font-semibold rounded-md">SignUp</button>
         </form>
-        <p className="text-center">Already Have an Account? <Link className="underline text-emerald-700" to="/login">Login</Link></p>
+        <p className="text-center mt-1">Already Have an Account? <Link className="underline text-emerald-700" to="/login">Login</Link></p>
 
         <SocialLogin></SocialLogin>
     </div>

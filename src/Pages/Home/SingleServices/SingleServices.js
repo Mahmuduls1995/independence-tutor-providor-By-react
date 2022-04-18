@@ -20,7 +20,7 @@ const SingleServices = ({ service }) => {
                         <p className="leading-relaxed text-base text-justify my-1">{description}</p>
 
                         <Link to="/checkout">
-                            <button onClick={() => singleServiceDetail(id)} className="text-white bg-indigo-500  py-2 px-6 hover:bg-gray-600 ease-in duration-300 rounded text-lg">Enroll Service</button>
+                            <button onClick={() => singleServiceDetail(id)} className="text-white bg-indigo-500 mt-3  py-2 px-12 hover:bg-gray-600 ease-in duration-300 rounded text-lg">Enroll Your Subject</button>
                         </Link>
 
                     </div>
