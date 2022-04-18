@@ -10,7 +10,7 @@ const SignUp = () => {
     const [error, setError] = useState('');
     const navigate = useNavigate();
 
-    const [createUserWithEmailAndPassword, hookError, user] = useCreateUserWithEmailAndPassword(auth);
+    const [createUserWithEmailAndPassword, hookError, user] = useCreateUserWithEmailAndPassword(auth, {sendEmailVerification: true });
 
 
     const handleEmailBlur = (event) => {
@@ -67,6 +67,8 @@ const SignUp = () => {
             <button className="mx-auto w-80 h-12 border-3 mt-3 bg-purple-600 text-white font-semibold rounded-md">SignUp</button>
         </form>
         <p className="text-center mt-1">Already Have an Account? <Link className="underline text-emerald-700" to="/login">Login</Link></p>
+
+
 
         <SocialLogin></SocialLogin>
     </div>
