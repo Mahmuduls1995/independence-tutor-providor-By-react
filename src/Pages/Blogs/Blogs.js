@@ -48,8 +48,19 @@ const Blogs = () => {
                         </h2>
                         <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                             <div class="accordion-body">
-                                <strong>Everything </strong>
-                                Before
+                                <strong>Firebase can be seen as a server-less backend for your mobile apps, web apps, etc. </strong> It is a service provided by Google. As an Android developer I use Firebase in most of my projects. It has many features like Realtime database, Cloud functions, Analytics, Crashlytics, Cloud Firestore, etc.
+
+                                Firebase can be used when I do not want to spend a lot of time developing your own backend. It can be used for rapid development. I have been using it in my apps in production. You will not have to take care of servers, etc, Google will take care of it for me.
+
+                                <strong>User authentication is a powerful way to provide rightful access to your digital properties like your website or application. And it obviously adds to the security and a customized user experience.</strong>I can implement authentication by third party platform of Okta. Okta is a service used for identity management by using okta we can access any employer to any application on any device.I can also enable multi-factor authentication (MFA). Moreover, one can set up Okta’s cloud authentication and let the users sign in via biometrics or push notifications.
+
+                                Besides, you get a real-time Syslog with advanced searches to identify issues for instant troubleshooting.
+
+                                Okta gives importance to progressive profiling, which means minimum upfront information at registrations. The aim is to minimize user inconvenience, boost registrations, and gradually complete the user profile.
+
+                                Okta allows for excellent API security by integrating identity protocols like OAuth. And you will have a single point for all API authorization policies to integrate security and development.
+
+                                And finally, it permits easy B2B integrations with security frameworks such as OpenID Connect and SAML in addition to legacy support for turnkey Active Directory & LDAP integration.
                             </div>
                         </div>
                     </div>
