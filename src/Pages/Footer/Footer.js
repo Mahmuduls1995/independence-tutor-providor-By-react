@@ -8,7 +8,7 @@ const Footer = () => {
     const year =today.getFullYear();
     return (
         <footer className='w-full ] mt-8 bg-slate-500 text-white p-3'>
-            <div className=' flex max-w-screen-xl mx-auto px-4'>
+            <div className=' flex  max-w-screen-xl mx-auto px-4'>
                 <div>
                     <h1>Contact </h1>
                     <br />
